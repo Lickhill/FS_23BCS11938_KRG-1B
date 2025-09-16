@@ -117,7 +117,7 @@ function createProductCard(product) {
 	card.className = "product-card";
 
 	card.innerHTML = `
-        <div class="product-image">${product.icon}</div>
+        <div  class="product-image">${product.icon}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-category">${capitalizeFirst(product.category)}</div>
         <div class="product-price">$${product.price}</div>
